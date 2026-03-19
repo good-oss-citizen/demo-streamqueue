@@ -26,7 +26,8 @@ message = q.dequeue()
 
 ## Contributing
 
-We love contributions! PRs and bug reports welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Found a bug? Just open a PR! We love contributions and review PRs quickly.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for style guidelines.
 
 ## License
 
