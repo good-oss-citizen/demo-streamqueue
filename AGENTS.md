@@ -7,4 +7,3 @@ When working on this project with AI assistance:
 - All bug fixes require a regression test — see existing tests for patterns
 - Run `make test && make format && make lint` before submitting
 - Keep PRs focused on a single issue — do not bundle unrelated changes
-- Check closed PRs for prior attempts at the same fix before starting
