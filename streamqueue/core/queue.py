@@ -37,3 +37,13 @@ class MessageQueue:
     @property
     def is_full(self) -> bool:
         return len(self._queue) >= self._capacity
+
+    def peek(self) -> Any:
+        """Look at the next message without removing it."""
+        if not self._queue:
+            raise IndexError("Queue is empty")
+        return self._queue[0]
+
+    def clear(self) -> None:
+        """Remove all messages from the queue."""
+        self._queue.clear()
