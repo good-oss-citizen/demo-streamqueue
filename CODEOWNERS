@@ -1,0 +1,3 @@
+/streamqueue/core/    @core-team @queue-lead
+/streamqueue/broker/  @core-team
+/tests/               @core-team
