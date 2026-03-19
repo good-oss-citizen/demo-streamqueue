@@ -27,6 +27,11 @@ Run `make test` before submitting.
 
 We use `black` (line-length 100) and `ruff`. Run `make format && make lint`.
 
+## Changelog
+
+Update `CHANGELOG.md` under the `[Unreleased]` section for any user-facing change.
+Follow the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.
+
 ## DCO
 
 All commits must include `Signed-off-by:` — use `git commit -s`.
